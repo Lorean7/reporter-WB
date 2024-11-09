@@ -1,0 +1,12 @@
+INSERT INTO `Reports` (`id`, `date_create`, `box_number`, `product_count`, `time_close`, `worker`, `comment`) VALUES (NULL, '2024-11-07', '1', '1', '1', 'Liza', 'Liza test');
+INSERT INTO `Reports` (`id`, `date_create`, `box_number`, `product_count`, `time_close`, `worker`, `comment`) VALUES (NULL, '2024-11-07', '1', '1', '1', 'Liza', 'Liza test');
+INSERT INTO `Reports` (`id`, `date_create`, `box_number`, `product_count`, `time_close`, `worker`, `comment`) VALUES (NULL, '2024-11-07', '1', '1', '1', 'Liza', 'Liza test');
+INSERT INTO `Reports` (`id`, `date_create`, `box_number`, `product_count`, `time_close`, `worker`, `comment`) VALUES (NULL, '2024-11-07', '1', '1', '1', 'Liza', 'Liza test');
+INSERT INTO `Reports` (`id`, `date_create`, `box_number`, `product_count`, `time_close`, `worker`, `comment`) VALUES (NULL, '2024-11-07', '1', '1', '1', 'Liza', 'Liza test');
+INSERT INTO `Reports` (`id`, `date_create`, `box_number`, `product_count`, `time_close`, `worker`, `comment`) VALUES (NULL, '2024-11-07', '1', '1', '1', 'Liza', 'Liza test');
+INSERT INTO `Reports` (`id`, `date_create`, `box_number`, `product_count`, `time_close`, `worker`, `comment`) VALUES (NULL, '2024-11-07', '1', '1', '1', 'Liza', 'Liza test');
+INSERT INTO `Reports` (`id`, `date_create`, `box_number`, `product_count`, `time_close`, `worker`, `comment`) VALUES (NULL, '2024-11-07', '1', '1', '1', 'Liza', 'Liza test');
+INSERT INTO `Reports` (`id`, `date_create`, `box_number`, `product_count`, `time_close`, `worker`, `comment`) VALUES (NULL, '2024-11-07', '1', '1', '1', 'Liza', 'Liza test');
+INSERT INTO `Reports` (`id`, `date_create`, `box_number`, `product_count`, `time_close`, `worker`, `comment`) VALUES (NULL, '2024-11-07', '1', '1', '1', 'Liza', 'Liza test');
+INSERT INTO `Reports` (`id`, `date_create`, `box_number`, `product_count`, `time_close`, `worker`, `comment`) VALUES (NULL, '2024-11-07', '1', '1', '1', 'Liza', 'Liza test');
+INSERT INTO `Reports` (`id`, `date_create`, `box_number`, `product_count`, `time_close`, `worker`, `comment`) VALUES (NULL, '2024-11-07', '1', '1', '1', 'Liza', 'Liza test');

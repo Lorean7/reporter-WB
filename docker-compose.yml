@@ -1,0 +1,34 @@
+services:
+  php:
+    build:
+      context: ./docker/php
+    volumes:
+      - './src:/var/www/html'
+    environment:
+      - PROJECT_NAME=Lorean.local
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - 80:80
+    volumes:
+      - './src:/var/www/html'
+      - './docker/nginx/conf.d:/etc/nginx/conf.d'
+
+  mysql:
+    image: mysql:8
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    volumes:
+      - './docker/volume/mysql:/var/lib/mysql'
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      - PMA_HOST=mysql
+      - PMA_USER=root
+      - PMA_PASSWORD=root
+      - PMA_ARBITRARY=1
